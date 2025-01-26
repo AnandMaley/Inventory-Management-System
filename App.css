@@ -1,0 +1,102 @@
+App.css
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+  margin: 0 auto; /* Center the container */
+}
+
+
+h1 {
+  color: #333;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+.actions button {
+  padding: 8px 12px;
+  margin: 0 10px; /* Increased space between the buttons */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+  display: inline-block; /* Ensure the buttons appear side by side */
+}
+
+.actions .delete-button {
+  background-color: #e74c3c; /* Red for delete */
+  color: white;
+}
+
+.actions .delete-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+.actions .update-button {
+  background-color: #3498db; /* Blue for update */
+  color: white;
+}
+
+.actions .update-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
